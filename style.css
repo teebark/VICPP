@@ -1,0 +1,20 @@
+/*
+Theme Name:  Benevolence child theme
+Theme URI:   http://virginiainterfaithcenter.org
+Version:     1.0
+Description: A child theme of Benevolence. This is a custom child theme created for VICPP.
+Author:      teebark
+Author URI:  http://teebark.com
+Template:    benevolence-wpl
+*/
+
+/*- Add any CSS custom code for this child theme below this line -*/
+/* Get rid of black background on page title, drop title below header */
+.header-bg {
+	position: static;
+	background-color: transparent;
+}
+.page-header .header-title {
+	color: white;
+}
+
